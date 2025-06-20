@@ -6,7 +6,7 @@ Este proyecto es un **servidor MCP en Python** que expone herramientas para cons
 > 🐍 Desarrollado con Python + FastMCP + HTTPX  
 > ⚡ Compatible con Claude Desktop vía configuración `mcpServers`
 
-![alt text](image.png)
+![alt text](/mcp-pokemon/mage.png)
 ---
 
 ## 🎮 ¿Qué puede hacer?
