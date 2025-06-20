@@ -1,0 +1,21 @@
+#Instalar uv
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+#Verifica que uv funcione
+uv --version
+
+#Crear el entorno del proyecto
+uv init mcp-pokemon
+cd mcp-pokemon
+uv venv
+.\.venv\Scripts\activate
+uv add mcp[cli] httpx
+
+#Probar que funcione localmente
+uv run pokemon.py
+
+
+#Conectar a Claude Desktop
+
+"¿Qué sabes del Pokémon Charmander?"
+"Dame los datos del Pokémon Gengar."

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "pokemon": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\Users\\pc\\Pictures\\mcp-local-pokemon\\mcp-pokemon\\mcp-pokemon",
+        "run",
+        "pokemon.py"
+      ]
+    }
+  }
+}
