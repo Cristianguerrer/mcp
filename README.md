@@ -6,6 +6,7 @@ Este proyecto es un **servidor MCP en Python** que expone herramientas para cons
 > 🐍 Desarrollado con Python + FastMCP + HTTPX  
 > ⚡ Compatible con Claude Desktop vía configuración `mcpServers`
 
+![alt text](image.png)
 ---
 
 ## 🎮 ¿Qué puede hacer?
@@ -100,7 +101,7 @@ Peso: 60 hectogramos
 
 > MCP (Model Context Protocol) permite a modelos como Claude ejecutar herramientas externas de forma controlada y segura.
 
-Más info en: [MCP Spec](https://github.com/anthropics/mcp)
+Más info en: [MCP Spec](https://modelcontextprotocol.io/quickstart/server#windows)
 
 ---
 
@@ -126,4 +127,4 @@ Este proyecto se distribuye bajo la licencia MIT.
 - [PokéAPI](https://pokeapi.co/) – fuente oficial de datos
 - [Anthropic Claude](https://www.anthropic.com) – cliente LLM
 - [uv by Astral](https://astral.sh/uv) – entorno y gestor de paquetes Python ultrarrápido
-
+- [modelcontextprotocol](https://modelcontextprotocol.io)
